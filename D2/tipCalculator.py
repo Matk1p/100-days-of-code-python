@@ -9,5 +9,6 @@ if (tip != 10 or tip != 12 or tip != 15):
 
 percentage = float("1." + str(tip))
 
-amount = round(((bill * percentage)) / num_diners, 2)
-print(f"Each person should pay: ${amount}")
+amount = (bill * percentage) / num_diners
+final_amount = "{:.2f}".format(amount)
+print(f"Each person should pay: ${final_amount}")
