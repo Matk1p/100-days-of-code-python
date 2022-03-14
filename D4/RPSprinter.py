@@ -1,3 +1,5 @@
+#RPS as in Rock Paper Scissors
+
 def rps_printer(choice):
     if choice == 0:
         return ("rock " + '''

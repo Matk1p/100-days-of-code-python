@@ -6,9 +6,11 @@ On this day, I learn:
 - random libary in python
 - Python Lists
 - List manipulation
+- finally, applied everything learnt today with the final Rock Paper Scissors Project
 
 The things I've learn are implemented by:
 - implementing random and my own python libraries in Random.py file
 - random number generators to make the Coin Toss game
 - Selecting a random object from a list of objects in BankerRoulette
-- Manipulating lists by choosing a spot to change the object to an "X"  
+- Manipulating lists by choosing a spot to change the object to an "X"
+- implemented a rock paper scissors game played between a user and the computer  
