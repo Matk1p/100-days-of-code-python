@@ -30,7 +30,7 @@ if (choice1 == "left"):
         print("You have waited and it paid off, you found a boat and took it to the island")
         choice3 = input('Now you need to choose the door to the treasure, choose "red", "blue" or "yellow"? Chooose wisely > ').lower()
         if(choice3 == "blue"):
-            print("Congratulations! You have attained the one piece!")
+            print("Congratulations! You have attained the One Piece!")
         elif(choice3 == "red"):
             print("Your left hand got bitten by a sea monster. GAME OVER")
         else:

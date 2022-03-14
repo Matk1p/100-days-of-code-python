@@ -9,4 +9,7 @@ During lessons, there are daily assignments for the concepts being taught. The a
 info: [here](D1/Day1.md)
 
 ## Day 2:
-intfo: [here](D2/Day2.md)
+info: [here](D2/Day2.md)
+
+## Day 3:
+info [here](D3/Day3.md)
