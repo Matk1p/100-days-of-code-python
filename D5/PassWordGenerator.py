@@ -16,7 +16,7 @@ for numbers in range(n_numbers):
 for numbers in range(n_symbols):
     password_list.append(random.choice(string.punctuation))
 
-random.shuffle(password_list)
-password = ''.join(map(str, password_list))
+random.shuffle(password_list) # shuffling the order of the items in the list
+password = ''.join(map(str, password_list)) # this is to turn the list into string for printing
 
 print(f"Your new password is {password}")
