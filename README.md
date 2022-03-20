@@ -27,4 +27,7 @@ info [here](D6/Day6.md)
 info [here](D7/Day7.md)
 
 ### Day 8
-infor [here](D8/Day8.md)
+info [here](D8/Day8.md)
+
+### Day 9
+info [here](D9/Day9.md)
