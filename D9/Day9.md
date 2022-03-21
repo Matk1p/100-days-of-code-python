@@ -12,3 +12,4 @@ Other than the initial similarities, here's what I learnt today:
 This is applied to to these exercises:
     - Student Grades, changing the values in a dictionary
     - Travel Log, to append new dictionaries in lists
+    - Implemented the Highest Bidder program as a final exercise that consists of the lessons taught throughout the session

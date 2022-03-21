@@ -13,12 +13,13 @@ def add_to_dictionary(bidder, bid):
     }
     return new_bidder
 
+# compare the previous bids with the current one in the iterating dictionary
 def max_bid(bid, current_max):
     if current_max >= bid: return current_max
     else: return bid
     
 
-
+# inputs needed when another while loop is not exited (another bidder)
 def start():
     bidder_name = input("What is your name?\n> ")
     bid_amount_str = input("What's your bid amount? (include $ sign)\n> ")
@@ -36,7 +37,7 @@ print(highestBidderArt.logo)
 dict_list = []
 dict_list.append(start())
 
-while input("Is there another bidder?\n > ").lower() == "yes":
+while input('Are there any other bidders? Type "Yes" or "No"\n> ').lower() == "yes":
     clearConsole()
     dict_list.append(start())
 
