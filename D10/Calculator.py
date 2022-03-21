@@ -31,13 +31,14 @@ operations = {
         "/" : divide,
     }
 
+# putting it in a function so that we could call it recursively
 def calculator():
-    n1 = int(input("What's your first number: "))
+    n1 = float(input("What's your first number: "))
     should_continue = True
 
     operations_printer()
     operation_symbol = input("Pick an operation from the line above: ")
-    n2 = int(input("What's your second number: "))
+    n2 = float(input("What's your second number: "))
 
     calculation_operation = operations[operation_symbol]
     answer = calculation_operation(n1, n2)
@@ -54,7 +55,7 @@ def calculator():
             break
         operations_printer()
         operation_symbol = input("Pick an operation from the line above: ")
-        n = int(input("Pick the next number: "))
+        n = float(input("Pick the next number: "))
         calculation_operation = operations[operation_symbol]
         latest_answer = calculation_operation(answer, n)
         print(f"{answer} {operation_symbol} {n} = {latest_answer}")
