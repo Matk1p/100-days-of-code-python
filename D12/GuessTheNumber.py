@@ -34,16 +34,17 @@ def number_checker(guessed_number, current_life):
         print(f"{guessed_number} is too high. You have {current_life - 1} lives left")
         return False
 
-difficulty = game_start()
-still_alive = True
+difficulty = game_start() #take into consideration user choice for difficulty
+still_alive = True # stopping condition for while loop
 current_life = life_generator(difficulty)
-while still_alive or current_life > 1:
+while still_alive or current_life > 1: # if goes to 0, then it gives 1 extra attempt
     guessed_number = int(input("Make a guess: "))
-    if number_checker(guessed_number, current_life) == True or current_life == 1:
+    if number_checker(guessed_number, current_life) == True or current_life == 1: #check if user ran out of lives or guess the word correctly
         still_alive = False
         break
     current_life -= 1
 
+# give user the satisfaction of knowing what is the right answer
 if current_life == 1:
     print(f"You ran our of lives. The number was {THE_NUMBER}")
 
