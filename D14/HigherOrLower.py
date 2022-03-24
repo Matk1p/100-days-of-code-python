@@ -1,6 +1,4 @@
 import random
-from turtle import pos
-from unicodedata import name
 import art
 import os
 import GameData
@@ -21,7 +19,6 @@ def get_option(list):
         position = random.randint(0, len(list))
 
     chosen_data.append(position)
-    print(f"chosen_data list includes: {chosen_data}")
     return list[position]
 
 
@@ -36,8 +33,8 @@ def is_chosen(position):
             return True
 
 def check_followers(option_a, option_b):
-    print(f'A follower count: {option_a["follower_count"]}')
-    print(f'B follower count: {option_b["follower_count"]}')
+    # print(f'A follower count: {option_a["follower_count"]}')
+    # print(f'B follower count: {option_b["follower_count"]}')
     if option_a["follower_count"] > option_b["follower_count"]:
         return "a"
     else: 
@@ -47,12 +44,11 @@ def guess_correct(guess, answer):
     if guess == answer:
         return True
     else:
-        print("You are wrong")
         return False
 
-score = 0
-idx = 0
-game_running = True
+score = 0 # to keep track of user score
+idx = 0 # to pass in option B as the next round's option A
+game_running = True # stopping condition for while loop
 
 def game(score, idx, game_running):
     print(art.logo)
