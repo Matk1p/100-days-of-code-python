@@ -40,3 +40,7 @@ info [here](D11/Day11.md)
 
 ### Day 12
 info [here](D12/Day12.md)
+
+### Day 13
+
+info [here](D13/Day13.md)
