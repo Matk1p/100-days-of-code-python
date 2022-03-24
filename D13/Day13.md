@@ -9,3 +9,9 @@ Debugging can be broken down into several steps:
     4. Fix the errors
     5. Print is your best friend
     6. Use a debugger
+    7. Take a break
+    8. Ask a friend
+    9. Run your code often, don't wait until you have a lot of of codes and ending up with a pile of bug
+    10. Stackoverflow
+
+These tips are then used in the exercises to to put them into use. For 

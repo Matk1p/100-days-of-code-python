@@ -13,7 +13,7 @@ def mutate(a_list):
   print(b_list)
 
 # after being printed, we see that only the last elemt is appended
-# this confirms the suspocion
+# this confirms the suspicion
 # to fix this:
 
 def mutate_v2(a_list):
@@ -24,3 +24,6 @@ def mutate_v2(a_list):
   print(b_list)
 
 mutate_v2([1,2,3,5,8,13])
+
+# this is printing manually, we are essentially trying to see how the pieces fall into place
+# alternatively can always use debugger tools like, pythontutor / thonny
