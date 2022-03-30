@@ -66,11 +66,11 @@ def check_sufficient_coins(coin_value, user_input):
 
 
 def make_coffee(user_input, coin_value, money):
-        money[0] += Decimal(MENU[user_input]["cost"]) # add to the value of money the machine currently holds
-        change = coin_value - Decimal(MENU[user_input]["cost"]) # give back the change
+        money[0] += Decimal(MENU[user_input]["cost"])  # add to the value of money the machine currently holds
+        change = coin_value - Decimal(MENU[user_input]["cost"])  # give back the change
 
         for key in resources:    
-            resources[key] -= MENU[user_input]["ingredients"][key] # update resources once coffee is made
+            resources[key] -= MENU[user_input]["ingredients"][key]  # update resources once coffee is made
         if change > 0:
             print(f"Here is your change: ${change}")
         
