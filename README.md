@@ -48,4 +48,10 @@ info [here](D13/Day13.md)
 info [here](D14/Day14.md)
 
 ### Day 15
-infor [here](D15/Day15.md)
+info [here](D15/Day15.md)
+
+### Day 16
+info [here](D16/Day16.md) 
+
+### Day 17
+info [here](D17/Day17.md)
