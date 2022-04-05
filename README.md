@@ -58,3 +58,6 @@ info [here](D17/Day17.md)
 
 ### Day 18
 info [here](D18/Day18.md)
+
+### Day 19
+info [here](D19/Day19.md)
