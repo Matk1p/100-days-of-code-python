@@ -64,3 +64,6 @@ info [here](D19/Day19.md)
 
 ### Day 20
 info [here](D20/Day20.md)
+
+### Day 21
+info [here](D21/Day21.md)
