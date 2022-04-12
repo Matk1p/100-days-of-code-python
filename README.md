@@ -3,7 +3,9 @@ Journey to learn and improve python knowledge
 
 Joined a [course](https://www.udemy.com/share/103IHM3@cFbbuYKINZHTJVUnRYxrdze47-9i4QwDvhjjM5wCMP4zwEJcK7UoFJF-wanrmAtC-A==/) with Angela Yu as she goes through the coding concepts using python.
 
-During lessons, there are daily assignments for the concepts being taught. The assignments are all done through coding rooms.
+During lessons, there are daily assignments for the concepts being taught. The assignments are all done through coding rooms. 
+
+These are the reflections I have for each and every lesson
 
 ### Day 1:
 info [here](D1/Day1.md)
@@ -70,3 +72,6 @@ info [here](D21/Day21.md)
 
 ### Day 22 
 info [here](D22/Day22.md)
+
+### Day 23
+info [here](D23/Day23.md)
