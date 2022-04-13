@@ -75,3 +75,6 @@ info [here](D22/Day22.md)
 
 ### Day 23
 info [here](D23/Day23.md)
+
+### Day 24
+info [here](D24/Day24.md)

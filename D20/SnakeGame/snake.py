@@ -28,6 +28,14 @@ class Snake:
         segment.goto(position)
         self.segments.append(segment)
 
+    def reset(self):  # this method is called when the snake dies, to reposition the snake in the centre
+        for seg in self.segments:
+            seg.goto(1000, 1000)
+
+        self.segments.clear()
+        self.create_snake()
+        self.head = self.segments[0]
+
     def extend(self):
         self.add_segment(self.segments[-1].position())  # getting hold of our last segment in the list
 
