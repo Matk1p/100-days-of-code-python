@@ -19,6 +19,7 @@ with open("Input/Names/invited_names.txt") as name_file:
         new_content = contents.replace("[name]", name)
         file_extension = name + ".txt"
         fileName = "Output/ReadyToSend/" + file_extension
+        # can also use f string like open(f"Output/Ready/ToSend/{fileName}.txt
         with open(fileName, mode="w") as output_file:
             new_content = contents.replace("[name]", name)
             output_file.write(new_content)
