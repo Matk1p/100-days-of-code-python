@@ -22,10 +22,13 @@ while len(guessed_states) < 50:
     # if user wants to exit
     if answer_state == "Exit":
         # Generate a file that contains all the states the user couldn't guess for learning purposes
-        missed_states = []
-        for state in states_list:
-            if state not in guessed_states:
-                missed_states.append(state)
+        # missed_states = []
+        # for state in states_list:
+        #     if state not in guessed_states:
+        #         missed_states.append(state)
+        #
+        # applying list comprehension for cleaner code
+        missed_states = [state for state in states_list not in guessed_states]
 
         df = pandas.DataFrame(missed_states)
         df.to_csv("states_to_learn.csv")
