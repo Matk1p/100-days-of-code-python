@@ -93,3 +93,6 @@ info [here](D28/Day28.md)
 
 ### Day 29
 info [here](D29/Day29.md)
+
+### Day 30
+info [here](D30/Day30.md)

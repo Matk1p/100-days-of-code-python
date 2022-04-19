@@ -26,10 +26,11 @@ else:
     content = file.read()
     print(content)
 finally:
+    raise TypeError("This is an error what we just made")  # this is how to make our own errors
     file.close()  # this block will execute no matter what
 
 # the code in the try block will try to execute the codes line by line
-# so it will try to execute all, but once it reaches a line where it can cause an exception,
+# so, it will try to execute all, but once it reaches a line where it can cause an exception,
 # we need to catch that in the exception clause defined. If the except KeyError block is absent:
 # then the error simply won't be caught, and the program will just crash, this way, we can at least know
 # where to look for the source of the error
